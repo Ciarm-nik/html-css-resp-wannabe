@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -23,16 +31,6 @@
   text-align: center;
 }
 
-@media screen and (max-width: 420px) {
-  
-    #lezioni .row>.left,
-    #lezioni .row>.right {
-      width: 100%;
-    }
-    .row {
-      background-color: #f2f2cd;
-    } 
-  }
 
 /* BLOCCO STEPS */
 #steps .row>.left,
@@ -81,4 +79,46 @@ img {
 
 .clear {
   clear: both;
+}
+
+
+@media screen and (max-width: 420px) {
+  
+.row {
+  background-color: #f2f2cd;
+} 
+
+#steps .row {
+  background-color: white;
+} 
+
+.row {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 100%;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: 100%;
+}
+
+.row h1 {
+  font-size: 25px;
+}
+
+.row p {
+
+}
+
+.row img {
+  height: 150px;
+}
+
+
 }
