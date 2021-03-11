@@ -24,9 +24,14 @@
 }
 
 @media screen and (max-width: 420px) {
-  body {
-  background-color: lightgreen;
-  }
+  
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+    }
+    .row {
+      background-color: #f2f2cd;
+    } 
   }
 
 /* BLOCCO STEPS */
